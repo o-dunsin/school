@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>sch-class</title>
+    <link rel="stylesheet" href="./sch.css/school.css">
+    <link rel="stylesheet" href="./sch.css/title-block.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Handlee&family=Nunito:wght@400;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header id="#top">
+        <div class="header-name">
+        <img src="./img/teddy-bear.png" alt="">
+        <a>KidKinder</a>
+        </div>
+        <nav>
+            <a href="./school.html" >Home</a>
+            <a href="./sch-about.html">About</a>
+            <a href="./sch-class.html" style="color: #17a2B8;">Classes</a>
+            <a href="./sch-teacher.html">Teachers</a>
+            <a href="./sch-gallary.html">Gallery</a>
+            <div class="dropdown">
+                <button class="dropbtn" onclick="myFunction()">Pages
+                <i class="fa fa-caret-down"></i>
+                </button>
+                <div class="dropdown-content" id="myDropdown">
+                    <a href="./blog-grid.html">Blog Grid</a>
+                    <a href="./blog-detail.html">Blog Detail</a>
+                </div>
+            </div>
+            <script>
+                /* When the user clicks on the button, 
+                toggle between hiding and showing the dropdown content */
+                function myFunction() {
+                  document.getElementById("myDropdown").classList.toggle("show");
+                }
+                
+                // Close the dropdown if the user clicks outside of it
+                window.onclick = function(e) {
+                  if (!e.target.matches('.dropbtn')) {
+                  var myDropdown = document.getElementById("myDropdown");
+                    if (myDropdown.classList.contains('show')) {
+                      myDropdown.classList.remove('show');
+                    }
+                  }
+                }
+            </script> 
+            <a href="./sch-contact.html">Contact</a>
+            <button class="join">Join Class</button>
+        </nav>
+    </header>
+    <section class="title-block">
+        <h1>Classes</h1>
+        <p><a href="./school.html">Home</a> / Classes</p>
+    </section>
+    <section class="group">
+        <h4>POPULAR CLASSES</h4>
+        <h1>Classes for Your Kids</h1>
+        <div class="group-box">
+            <div class="group-details">
+                <img src="./img/class-1.jpg" alt="">
+                <h5>Drawing Class</h5>
+                <p>Justo ea diam stet diam ipsum no sit, ipsum vero et et diam ipsum duo et no et, ipsum ipsum erat duo amet clita duo</p>
+                <hr>
+                <table>
+                    <tr>
+                        <td>Age of Kids</td>
+                        <td>3-6 Years</td>
+                    </tr>
+                    <tr>
+                        <td>Total Seats</td>
+                        <td>40 Seats</td>
+                    </tr>
+                    <tr>
+                        <td>Class Time</td>
+                        <td>08:00 - 10:00</td>
+                    </tr>
+                    <tr>
+                        <td>Tution Fee</td>
+                        <td>$290/Month</td>
+                    </tr>
+                </table>
+                <button>Join Now</button>
+            </div>
+            <div class="group-details">
+                <img src="./img/class-2.jpg" alt="">
+                <h5>Language Learning</h5>
+                <p>Justo ea diam stet diam ipsum no sit, ipsum vero et et diam ipsum duo et no et, ipsum ipsum erat duo amet clita duo</p>
+                <hr>
+                <table>
+                    <tr>
+                        <td>Age of Kids</td>
+                        <td>3-6 Years</td>
+                    </tr>
+                    <tr>
+                        <td>Total Seats</td>
+                        <td>40 Seats</td>
+                    </tr>
+                    <tr>
+                        <td>Class Time</td>
+                        <td>08:00 - 10:00</td>
+                    </tr>
+                    <tr>
+                        <td>Tution Fee</td>
+                        <td>$290/Month</td>
+                    </tr>
+                </table>
+                <button>Join Now</button>
+            </div>
+            <div class="group-details">
+                <img src="./img/class-3.jpg" alt="">
+                <h5>Basic Science</h5>
+                <p>Justo ea diam stet diam ipsum no sit, ipsum vero et et diam ipsum duo et no et, ipsum ipsum erat duo amet clita duo</p>
+                <hr>
+                <table>
+                    <tr>
+                        <td>Age of Kids</td>
+                        <td>3-6 Years</td>
+                    </tr>
+                    <tr>
+                        <td>Total Seats</td>
+                        <td>40 Seats</td>
+                    </tr>
+                    <tr>
+                        <td>Class Time</td>
+                        <td>08:00 - 10:00</td>
+                    </tr>
+                    <tr>
+                        <td>Tution Fee</td>
+                        <td>$290/Month</td>
+                    </tr>
+                </table>
+                <button>Join Now</button>
+            </div>
+        </div>
+    </section>
+    <section class="book">
+    <div class="book-info">
+        <h6>BOOK A SEAT</h6>
+        <h1>Book A Seat Form</h1>
+        <p>Invidunt lorem justo sanctus clita. Erat lorem labore ea, justo dolor lorem ipsum ut sed eos, ipsum et dolor kasd sit ea justo. Erat justo sed sed diam. Ea et erat ut sed diam sea ipsum est dolor</p>
+        <div class="book-list" >
+            <p><i class="fa-solid fa-check"></i>Labore eos amet dolor amet diam</p>
+            <p><i class="fa-solid fa-check"></i>Etsea et sit dolor amet ipsum</p>
+            <p><i class="fa-solid fa-check"></i>Diam dolor diam elitripsum vero.</p>
+        </div>
+        <button>Book Now</button>
+    </div>
+    <div class="book-box">
+        <h1>Book A Seat</h1>
+        <form action="">
+            <input type="text" name="" id="" placeholder="Your Name">
+            <input type="email" name="" id=""  placeholder="Your Email">
+            <select>
+                <option value="">Select A Class</option>
+                <option value="">Class 1</option>
+                <option value="">Class 1</option>
+                <option value="">Class 1</option>
+            </select>
+            <button>Book Now</button>
+        </form>
+    </div>
+    </section>
+    <footer>
+        <div class="footer-grid ">
+            <div class="grid-1">
+            <img src="./img/teddy-bear.png" alt="">
+            <a>KidKinder</a>
+            <p>Labore dolor amet ipsum ea, erat sit ipsum duo eos. Volup amet ea dolor et magna dolor, elitr rebum duo est sed diam elitr. Stet elitr stet diam duo eos rebum ipsum diam ipsum elitr.</p>
+            <div class="grid1-buttons">
+                <button><i class="fa-brands fa-twitter"></i></button>
+                <button><i class="fa-brands fa-facebook-f"></i></button>
+                <button><i class="fa-brands fa-linkedin"></i></button>
+                <button><i class="fa-brands fa-instagram"></i></button</button>
+            </div>
+            </div>
+            <div class="grid-2">
+            <h2>Get In Touch</h2>
+            <div class="grid2-detail">
+                <i class="fa-solid fa-location-dot"></i>
+                <div class="grid2-text">
+                <h5>Address</h5>
+                <p>123 Street, New York, USA</p></div>
+            </div>
+            <div class="grid2-detail">
+                <i class="fa-solid fa-envelope"></i> 
+                <div class="grid2-text"><h5>Email</h5>
+                <p>mail@domain.com</p></div>
+            </div>
+            <div class="grid2-detail">
+                <i class="fa-solid fa-phone"></i>
+                <div class="grid2-text"><h5>Phone</h5>
+                <p>+012 345 67890</p></div>
+            </div>
+            </div>
+            <div class ="link">
+            <h2>Quick Links</h2>
+            <a href=""><i class="fa-sharp fa-solid fa-angle-right"></i>Home</a>
+            <a href="./sch-about.html"><i class="fa-sharp fa-solid fa-angle-right"></i>About Us</a>
+            <a href="./sch-class.html"><i class="fa-sharp fa-solid fa-angle-right"></i>Our Classes</a>
+            <a href="./sch-teacher.html"><i class="fa-sharp fa-solid fa-angle-right"></i>Our Teachers</a>
+            <a href=""><i class="fa-sharp fa-solid fa-angle-right"></i>Our Blog</a>
+            <a href="./sch-contact.html"><i class="fa-sharp fa-solid fa-angle-right"></i>Contact Us</a>
+            </div>
+            <div class="grid-4">
+            <h2>Newsletter</h2>
+            <form action="Newsletter"></form>
+            <input type="text" name="Name" id=""placeholder="Your Name">
+            <input type="email" name="Email" id=""placeholder="Your Email" >
+            <button type="submit">Submit Now</button>
+            </div>
+        </div>
+        <hr>
+        <div style="text-align: center;" class="footer-line">
+            <p>&#169 <a href="#">Your Site Name</a>. All Rights Reserved. Designed by <a href="#">HTML Codex</a></p>
+        </div>
+    </footer>
+    <div class="back"><button><a href="#top"><i class="fa-solid fa-angles-up"></i></a></button></div>
+</body>
+</html>

@@ -1,0 +1,421 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: white;
+    font-family: Nunito,sans-serif;
+}
+.content {
+    display: flex;
+    flex-direction: row;
+    margin: 70px 20px 40px 20px;
+    vertical-align: top;
+    padding: 20px;
+}
+main {
+    width: 70%;
+    text-align: left;
+    padding: 0px 5px 0px;
+}
+main h4{
+    font-size: 18px;
+    color: #2baec2;
+    font-family: nunito, sans-serif;
+    position: relative;
+    margin: 0px auto 0px 0px;
+    max-width: 540px;
+}
+main h4::after {
+    content: "";
+    display: block;
+    width: 355px;
+    height: 2px;
+    background: #2baec2;
+    position: absolute;
+    right: 0;
+    top: 50%;
+}
+main h1 {
+    font-size: 35px;
+    color: rgb(34, 34, 109);
+    font-weight: bold;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-family: handlee, cursive;
+}
+.blog-stat1 {
+    display: flex;
+    flex-direction: row;
+    margin: 0px;
+    margin-bottom: 30px;
+}
+.blog-stat1 i {
+    color: #17a2B8;
+    font-size: 15px;
+    margin: 3px;
+}
+.blog-stat1 span {
+    color: black;
+    font-size: 14px;
+    font-family: nunito, sans-serif;
+    margin-right: 10px;
+}
+article p {
+    font-size: 16px;
+    color: rgb(73, 73, 73);
+    font-family: nunito, sans-serif;
+    margin: 0px 0px 16px 0px;
+    line-height: 24px;
+}
+article h2 {
+    font-size: 30px;
+    font-weight: 700;
+    font-family: handlee, cursive;
+    color: rgb(14, 14, 54)
+}
+.article-left{
+    width: 300px;
+    border-radius: 8px;
+    float: left;
+    margin-right: 10px;
+}
+.article-right{
+    width: 300px;
+    border-radius: 8px;
+    float: right;
+    margin-left: 10px;
+}
+h3 {
+    font-size: 30px;
+    font-weight: 700;
+    font-family: handlee, cursive;
+    color: rgb(14, 14, 54)
+}
+.post-slide {
+    display: flex;
+    flex-direction: row;
+    vertical-align: top;
+    
+}
+.post-box {
+    display: flex;
+    flex-direction: row;
+    vertical-align: top;
+    width: 400px;
+}
+.post-box img {
+    width: 80px;
+    height: 80px;
+    margin-right: 10px;
+}
+.post-box h5 {
+    font-size: 20px;
+    font-weight: 700;
+    font-family: handlee, cursive;
+    color: rgb(21, 21, 78);
+    margin: 0;
+}
+.post-box-stat {
+        display: flex;
+        flex-direction: row;
+        margin: 0px;
+        margin-bottom: 30px;
+    }
+.post-box i {
+        color: #17a2B8;
+        font-size: 10px;
+        margin: 3px;
+    }
+.post-box span {
+        color: black;
+        font-size: 12px;
+        font-family: nunito, sans-serif;
+        margin-right: 10px;
+    }
+#post_slid .owl-nav {
+        position: absolute;
+        top: 50%;
+        width: 100%;
+    }
+#post_slid .owl-prev, #post_slid .owl-next {
+        width: 40px;
+        height: 40px;
+        line-height: 40px;
+        color: #0a69ed;
+        border-radius: 50%;
+        text-align: center;
+        background: #fff;
+        position: absolute;
+    }
+    #post_slid .owl-prev {
+        left: 10px;
+    
+    }
+    #post_slid .owl-next {
+        right: 10px;
+    }
+    @media only screen and (max-width: 991px) {
+        .owl-nav {
+            display: none;
+        }
+    }
+    @media only screen and (max-width: 767px) {
+        .box-area {
+            text-align: center;
+        }
+        .owl-nav {
+            display: none;
+        }
+    }
+
+.comment-box, .comment-box2 {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 25px;
+}
+.comment-box img, .comment-box2 img {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+.comment-text h6 {
+    margin: 0px;
+    font-size: 16px;
+    font-family: handlee, cursive;
+    color: rgb(14, 14, 54);
+    display: inline-block;
+}
+.comment-text i {
+    font-size: 13px;
+    font-family: handlee, cursive;
+    color: #666;
+}
+.comment-text p {
+    font-size: 15px;
+    color: rgb(73, 73, 73);
+    font-family: nunito, sans-serif;
+    margin: 0px 0px 16px 0px;
+    line-height: 24px;
+}
+.comment-text button {
+    padding: 4px 8px;
+    border: none;
+    color: rgb(39, 39, 39);
+    cursor: pointer;
+}
+.comment-text button:hover {
+    background-color: rgb(177, 177, 177);
+    transition: 1s;
+}
+.comment-box2 {
+    margin-left: 60px;
+}
+form {
+    background-color: #f8f9fa;
+    padding: 24px 24px;
+    font-size: 16px;
+    font-weight: 300;
+    color: rgb(73, 73, 73);
+}
+form label {
+    display: block;
+}
+form input {
+    width: 95%;
+    height: 38px;
+    border: 1px solid #ced4da;
+    border-radius: 6px;
+    padding: 6px 12px;
+    margin: 10px 5px 10px 0px;
+    outline: none;
+}
+form textarea {
+    width: 95%;
+    height: 120px;
+    border: 1px solid #ced4da;
+    border-radius: 6px;
+    padding: 6px 12px;
+    margin: 10px 5px 10px 0px;
+    outline: none;
+}
+form button {
+    background-color: #17a2B8;
+    color: white;
+    border: none;
+    font-size: 16px;
+    border-radius: 22px;
+    padding: 12px 20px;
+    margin: 10px 0px;
+    cursor: pointer;
+}
+form button:hover {
+    background-color: #167988;
+    color: white;
+    transition: 1ms;
+}
+
+aside {
+    width: 30%;
+    padding: 0px 10px;
+}
+.user-box {
+    background-color: #17a2B8;
+    width: 85%;
+    height: 380px;
+    padding: 48px 24px 48px 24px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+}
+.user-box img {
+    border-radius: 50%;
+}
+.user-box h3 {
+    margin: 9px;
+    font-size: 26px;
+    font-family: handlee, cursive;
+    color: rgb(14, 14, 54);
+}
+.user-box p {
+    color: white;
+    font-size: 16px;
+    line-height: 24px;
+    margin: 0px;
+    width: 200px;
+}
+.search 
+{ display: flex;
+flex-direction: row;
+margin: 40px 0px 40px 0px;
+border-radius: 4px;
+}
+.search input{
+    width: 250px;
+    height: 48px;
+    border: 1px solid #ced4da;
+    max-width:300px;
+    background-color: white;
+    color:#666;
+    font-size: 16px;
+    padding: 8px 16px;
+    outline: 0px;
+}
+.search button {
+    width: 50px;
+    height: 48px;
+    border: 1px solid #ced4da;
+    background-color: white;
+    color: #17a2B8;
+    font-size: 18px;
+    padding: 8px 16px;
+    cursor: pointer;
+}
+.search button:active {
+    color: white;
+    background-color: #17a2B8;
+}
+aside h2 {
+    font-size: 30px;
+    font-weight: 700;
+    font-family: handlee, cursive;
+    color: rgb(14, 14, 54)
+}
+.category-box {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 30px;
+}
+.category-line {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    vertical-align: top;
+    border-bottom: 1px solid #17a2B8;
+    margin-bottom: 20px;
+}
+.category-line a{
+    text-decoration: none;
+    color: #17a2B8;
+    margin: 0px;
+    font-size: 17px;
+}
+.category-line p {
+    background-color: #17a2B8;
+    color: white;
+    margin: 0px 0px 7px;
+    text-align: center;
+    width: 35px;
+    height: auto;
+    border-radius: 13px;
+    font-size: 16px;
+}
+.categories img, .recent img, .tag img {
+    width: 100%;
+    border-radius: 4px;
+}
+.recent-details h5 {
+    font-size: 20px;
+    font-weight: 700;
+    font-family: handlee, cursive;
+    color: rgb(14, 14, 54);
+    margin: 0;
+}
+.recent-box {
+    display: flex;
+    flex-direction: row;
+    vertical-align: top;
+}
+.recent-box img {
+    width: 80px;
+    height: 80px;
+    margin-right: 10px;
+}
+.recent-stat {
+        display: flex;
+        flex-direction: row;
+        margin: 0px;
+        margin-bottom: 30px;
+    }
+.recent-stat i {
+        color: #17a2B8;
+        font-size: 13px;
+        margin: 3px;
+    }
+.recent-stat span {
+        color: black;
+        font-size: 14px;
+        font-family: nunito, sans-serif;
+        margin-right: 10px;
+    }
+.tag button {
+    font-size: 16px;
+    background-color: white;
+    color: #17a2B8;
+    border: 1px solid #17a2B8;
+    border-radius: 20px;
+    height: 38px;
+    margin: 4px;
+    text-align: center;
+    padding: 6px 10px;
+    text-align: none;
+    cursor: pointer;
+}
+.tag button a {
+    text-decoration: none;
+    color: #17a2B8;
+}
+.tag button:hover, .tag button a:hover {
+    background-color: #17a2B8;
+    color: white;
+}
+.text2 p {
+    font-size: 16px;
+    color: rgb(73, 73, 73);
+    font-family: nunito, sans-serif;
+    margin: 0px 0px 16px 0px;
+    line-height: 24px;
+}

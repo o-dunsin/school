@@ -1,0 +1,146 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: white;
+    font-family: Nunito,sans-serif;
+}
+.contact h4{
+    font-size: 18px;
+    color: #2baec2;
+    text-align: center;
+    font-family: nunito, sans-serif;
+    position: relative;
+    margin: 0px auto;
+    max-width: 280px;
+}
+.contact h4::before {
+    content: "";
+    display: block;
+    width: 60px;
+    height: 2px;
+    background: #2baec2;
+    position: absolute;
+    left: 0;
+    top: 50%;
+}
+.contact h4::after {
+    content: "";
+    display: block;
+    width: 60px;
+    height: 2px;
+    background: #2baec2;
+    position: absolute;
+    right: 0;
+    top: 50%;
+}
+.contact h1 {
+    font-size: 45px;
+    color: rgb(34, 34, 109);
+    text-align: center;
+    font-weight: bold;
+    margin-top: 10px;
+    margin-bottom: 0px;
+    font-family: handlee, cursive;
+}
+.contact-details {
+    margin: 20px;
+    vertical-align: top;
+    display: flex;
+    flex-direction: row;
+}
+.contact-form {
+    width: 550px;
+    padding: 0px ;
+}
+.contact-form input{
+    width: 92%;
+    height: 20px;
+    border: 1px solid #258897;
+    border-radius: 6px;
+    outline: red;
+    padding: 6px;
+    margin: 7px;
+    color: rgb(75, 75, 75);
+    font-size: 17px;
+    font-weight: 300;
+    font-family: nunito, sans-serif;
+}
+.contact-form textarea{
+    width: 92%;
+    height: 100px;
+    border: 1px solid #258897;
+    outline: red;
+    border-radius: 6px;
+    padding: 10px;
+    margin: 10px;
+    color: rgb(75, 75, 75);
+    font-size: 17px;
+    font-weight: 300;
+    font-family: nunito, sans-serif;
+}
+.contact-form button{
+    width: 150px;
+    height: 47px;
+    border: none;
+    border-radius: 30px;
+    background-color:  #2baec2;
+    color: white;
+    padding: 3px;
+    margin: 10px;
+    font-size: 16px;
+    cursor: pointer;
+}
+.contact-form button:hover {
+    background-color: #175a64;
+    color: white;
+}
+.contact-text {
+    width: 350px;
+}
+.contact-text p {
+    color: rgb(75, 75, 75);
+    font-size: 17px;
+    font-weight: 300;
+    font-family: nunito, sans-serif;
+    margin: 0;
+}
+.contact-box {
+    margin-top :10px;
+}
+.contact-box button {
+    background-color: #2baec2;
+    color: rgb(19, 19, 63);
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: none;
+    align-items: center;
+    font-size: 17px;
+    margin: 5px;
+}
+.contact-pin {
+    display: flex;
+    flex-direction: row;
+    vertical-align: top;
+}
+.contact-pin h5{
+    font-family: handlee, cursive;
+    font-size: 20px;
+    color: rgb(19, 19, 63);
+    margin: 0px;
+}
+.contact-pin p {
+    color: rgb(75, 75, 75);
+    font-size: 15px;
+    font-weight: 300;
+    font-family: nunito, sans-serif;
+    margin-bottom: 18px;
+}
+.contact-pin h6 {
+    color: rgb(75, 75, 75);
+    font-size: 15px;
+    font-weight: 600;
+    font-family: nunito, sans-serif;
+    margin: 0px;
+}

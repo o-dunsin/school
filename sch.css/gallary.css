@@ -1,0 +1,115 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: white;
+    font-family: Nunito,sans-serif;
+}
+main h4{
+    font-size: 18px;
+    color: #2baec2;
+    text-align: center;
+    font-family: nunito, sans-serif;
+    position: relative;
+    margin: 0px auto;
+    max-width: 330px;
+}
+main h4::before {
+    content: "";
+    display: block;
+    width: 60px;
+    height: 2px;
+    background: #2baec2;
+    position: absolute;
+    left: 0;
+    top: 50%;
+}
+main {
+    margin-top: 50px;
+    padding: 25px;
+}
+main h4::after {
+    content: "";
+    display: block;
+    width: 60px;
+    height: 2px;
+    background: #2baec2;
+    position: absolute;
+    right: 0;
+    top: 50%;
+}
+main h1 {
+    font-size: 45px;
+    color: rgb(34, 34, 109);
+    text-align: center;
+    font-weight: bold;
+    margin-top: 10px;
+    font-family: handlee, cursive;
+}
+.link-button {
+    text-align: center;
+    margin-bottom: 30px;
+}
+.link-button a {
+    color: #2baec2;
+    background-color: white;
+    border: 1px solid #2baec2;;
+    height: 32px;
+    width: auto;
+    padding: 6px 12px;
+    border-radius: 20px;
+    text-decoration: none;
+    text-align: center;
+}
+.link-button a:hover,  .link-button a:active{
+    background-color: #2baec2;
+    color: white;
+}
+.pics-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding: 20px;
+    grid-column-gap: 20px;
+    grid-row-gap: 50px;
+}
+.pics-grid img {
+    width: 270px;
+    margin-bottom: 40px;
+}
+.container {
+    position: relative;
+    width: 270px;
+    max-width: 400px;
+  }
+.overlay {
+    position: absolute;
+    top: 0;
+   top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    height: 75%;
+    width: 75%;
+    opacity: 0;
+    transition: .3s ease;
+    background-color: #2baec2;
+  }
+  
+  .container:hover .overlay {
+    opacity: 1;
+  }
+  
+  .icon {
+    color: white;
+    font-size: 60px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+  }
+  
+  .fa-user:hover {
+    color: #eee;
+  }

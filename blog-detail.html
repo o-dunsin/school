@@ -1,0 +1,374 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog-Detail</title>
+    <link rel="stylesheet" href="./sch.css/title-block.css">
+    <link rel="stylesheet" href="./sch.css/school.css">
+    <link rel="stylesheet" href="./sch.css/blog-detail.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Handlee&family=Nunito:wght@400;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.2.1/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.2.1/assets/owl.theme.default.min.css"> 
+</head>
+<body>
+    <header id="#top">
+        <div class="header-name">
+        <img src="./img/teddy-bear.png" alt="">
+        <a>KidKinder</a>
+        </div>
+        <nav>
+            <a href="./school.html">Home</a>
+            <a href="./sch-about.html">About</a>
+            <a href="./sch-class.html">Classes</a>
+            <a href="./sch-teacher.html">Teachers</a>
+            <a href="./sch-gallary.html">Gallery</a>
+            <div class="dropdown">
+                <button class="dropbtn" onclick="myFunction()">Pages
+                <i class="fa fa-caret-down"></i>
+                </button>
+                <div class="dropdown-content" id="myDropdown">
+                    <a href="./blog-grid.html">Blog Grid</a>
+                    <a href="./blog-detail.html" style="color: #17a2B8;">Blog Detail</a>
+                </div>
+            </div>
+            <script>
+                /* When the user clicks on the button, 
+                toggle between hiding and showing the dropdown content */
+                function myFunction() {
+                  document.getElementById("myDropdown").classList.toggle("show");
+                }
+                
+                // Close the dropdown if the user clicks outside of it
+                window.onclick = function(e) {
+                  if (!e.target.matches('.dropbtn')) {
+                  var myDropdown = document.getElementById("myDropdown");
+                    if (myDropdown.classList.contains('show')) {
+                      myDropdown.classList.remove('show');
+                    }
+                  }
+                }
+            </script> 
+            <a href="./sch-contact.html">Contact</a>
+            <button class="join">Join Class</button>
+        </nav>
+    </header>
+    <section class="title-block">
+      <h1>Blog Details</h1>
+      <p><a href="./school.html">Home</a> / Blog Details</p>
+    </section>
+    <div class="content">
+      <main>
+        <h4>BLOG DETAIL PAGE</h4>
+        <h1>Diam dolor est ipsum clita lorem</h1>
+        <div class="blog-stat1">
+          <div>
+              <i class="fa-solid fa-user"></i>
+              <span>Admin</span>
+          </div>
+          <div>
+              <i class="fa-solid fa-folder"></i>
+              <span>Web Design</span>
+          </div>
+          <div>
+              <i class="fa-solid fa-comments"></i>
+              <span>15</span>
+          </div>
+        </div>
+        <article>
+          <img style="width: 100%; border-radius: 7px; margin-bottom: 18px;" src="./img/portfolio-1.jpg" alt="">
+          <p>Sadipscing labore amet rebum est et justo gubergren. Et eirmod ipsum sit diam ut magna lorem. Nonumy vero labore lorem sanctus rebum et lorem magna kasd, stet amet magna accusam consetetur eirmod. Kasd accusam sit ipsum sadipscing et at at sanctus et. Ipsum sit gubergren dolores et, consetetur justo invidunt at et aliquyam ut et vero clita. Diam sea sea no sed dolores diam nonumy, gubergren sit stet no diam kasd vero.
+          </p>  
+          <p>Voluptua est takimata stet invidunt sed rebum nonumy stet, clita aliquyam dolores vero stet consetetur elitr takimata rebum sanctus. Sit sed accusam stet sit nonumy kasd diam dolores, sanctus lorem kasd duo dolor dolor vero sit et. Labore ipsum duo sanctus amet eos et. Consetetur no sed et aliquyam ipsum justo et, clita lorem sit vero amet amet est dolor elitr, stet et no diam sit. Dolor erat justo dolore sit invidunt.
+          </p>
+
+          <h2>Est dolor lorem et ea</h2>
+          <img class="article-left" src="./img/blog-1.jpg" alt="">
+          <p>Diam dolor est labore duo invidunt ipsum clita et, sed et lorem voluptua tempor invidunt at est sanctus sanctus. Clita dolores sit kasd diam takimata justo diam lorem sed. Magna amet sed rebum eos. Clita no magna no dolor erat diam tempor rebum consetetur, sanctus labore sed nonumy diam lorem amet eirmod. No at tempor sea diam kasd, takimata ea nonumy elitr sadipscing gubergren erat. Gubergren at lorem invidunt sadipscing rebum sit amet ut ut, voluptua diam dolores at sadipscing stet. Clita dolor amet dolor ipsum vero ea ea eos. Invidunt sed diam dolores takimata dolor dolore dolore sit. Sit ipsum erat amet lorem et, magna sea at sed et eos. Accusam eirmod kasd lorem clita sanctus ut consetetur et. Et duo tempor sea kasd clita ipsum et. Takimata kasd diam justo est eos erat aliquyam et ut. Ea sed sadipscing no justo et eos labore, gubergren ipsum magna dolor lorem dolore, elitr aliquyam takimata sea kasd dolores diam, amet et est accusam labore eirmod vero et voluptua. Amet labore clita duo et no. Rebum voluptua magna eos magna, justo gubergren labore sit voluptua eos.</p>
+
+          <h2>Est dolor lorem et ea</h2>
+          <img class="article-right" src="./img/blog-2.jpg" alt="">
+          <p>Diam dolor est labore duo invidunt ipsum clita et, sed et lorem voluptua tempor invidunt at est sanctus sanctus. Clita dolores sit kasd diam takimata justo diam lorem sed. Magna amet sed rebum eos. Clita no magna no dolor erat diam tempor rebum consetetur, sanctus labore sed nonumy diam lorem amet eirmod. No at tempor sea diam kasd, takimata ea nonumy elitr sadipscing gubergren erat. Gubergren at lorem invidunt sadipscing rebum sit amet ut ut, voluptua diam dolores at sadipscing stet. Clita dolor amet dolor ipsum vero ea ea eos. Invidunt sed diam dolores takimata dolor dolore dolore sit. Sit ipsum erat amet lorem et, magna sea at sed et eos. Accusam eirmod kasd lorem clita sanctus ut consetetur et. Et duo tempor sea kasd clita ipsum et. Takimata kasd diam justo est eos erat aliquyam et ut. Ea sed sadipscing no justo et eos labore, gubergren ipsum magna dolor lorem dolore, elitr aliquyam takimata sea kasd dolores diam, amet et est accusam labore eirmod vero et voluptua. Amet labore clita duo et no. Rebum voluptua magna eos magna, justo gubergren labore sit voluptua eos.</p>
+        </article>
+        <section id="post_slid"  class="post">
+          <h3>Related Post</h3>
+          <div class="post-slide">
+            <div class="post-box">
+              <img src="./img/post-1.jpg" alt="">
+              <div class="post-details">
+                <h5>Diam amet eos at no eos</h5>
+                <div class="post-stat">
+                  <div>
+                      <i class="fa-solid fa-user"></i>
+                      <span>Admin</span>
+                  </div>
+                  <div>
+                      <i class="fa-solid fa-folder"></i>
+                      <span>Web Design</span>
+                  </div>
+                  <div>
+                      <i class="fa-solid fa-comments"></i>
+                      <span>15</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="post-box">
+              <img src="./img/post-2.jpg" alt="">
+              <div class="post-details">
+                <h5>Diam amet eos at no eos</h5>
+                <div class="post-stat">
+                  <div>
+                      <i class="fa-solid fa-user"></i>
+                      <span>Admin</span>
+                  </div>
+                  <div>
+                      <i class="fa-solid fa-folder"></i>
+                      <span>Web Design</span>
+                  </div>
+                  <div>
+                      <i class="fa-solid fa-comments"></i>
+                      <span>15</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="post-box">
+              <img src="./img/post-3.jpg" alt="">
+              <div class="post-details">
+                <h5>Diam amet eos at no eos</h5>
+                <div class="post-stat">
+                  <div>
+                      <i class="fa-solid fa-user"></i>
+                      <span>Admin</span>
+                  </div>
+                  <div>
+                      <i class="fa-solid fa-folder"></i>
+                      <span>Web Design</span>
+                  </div>
+                  <div>
+                      <i class="fa-solid fa-comments"></i>
+                      <span>15</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+	      <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.2.1/owl.carousel.min.js"></script>
+        <section class="comment">
+          <h3>3 Comments</h3>
+          <div class="comment-box">
+            <img src="./img/user.jpg" alt="">
+            <div class="comment-text">
+            <h6>John Doe</h6>
+            <i>01 Jan 2045 at 12:00pm</i>
+            <p>Diam amet duo labore stet elitr ea clita ipsum, tempor labore accusam ipsum et no at. Kasd diam tempor rebum magna dolores sed sed eirmod ipsum. Gubergren clita aliquyam consetetur sadipscing, at tempor amet ipsum diam tempor consetetur at sit.</p>
+            <button>Reply</button></div>
+          </div>
+          <div class="comment-box">
+            <img src="./img/user.jpg" alt="">
+            <div class="comment-text">
+            <h6>John Doe</h6>
+            <i>01 Jan 2045 at 12:00pm</i>
+            <p>Diam amet duo labore stet elitr ea clita ipsum, tempor labore accusam ipsum et no at. Kasd diam tempor rebum magna dolores sed sed eirmod ipsum. Gubergren clita aliquyam consetetur sadipscing, at tempor amet ipsum diam tempor consetetur at sit.</p>
+            <button>Reply</button></div>
+          </div>
+          <div class="comment-box2">
+            <img src="./img/user.jpg" alt="">
+            <div class="comment-text">
+            <h6>John Doe</h6>
+            <i>01 Jan 2045 at 12:00pm</i>
+            <p>Diam amet duo labore stet elitr ea clita ipsum, tempor labore accusam ipsum et no at. Kasd diam tempor rebum magna dolores sed sed eirmod ipsum. Gubergren clita aliquyam consetetur sadipscing, at tempor amet ipsum diam tempor consetetur at sit.</p>
+            <button>Reply</button></div>
+          </div>
+        </section>
+        <form action="message">
+          <h3>Leave a comment</h3>
+          <label for="">Name &ast;</label>
+          <input type="text" name="" id="">
+          <label for="">Email &ast;</label>
+          <input type="email" name="" id="">
+          <label for="">Website </label>
+          <input type="text" name="" id="">
+          <label for="">Message &ast;</label>
+          <textarea name="" id="" cols="30" rows="10"></textarea>
+          <button type="submit">Leave Comment</button>
+        </form>
+      </main>
+      <aside>
+        <div class="user-box">
+          <img src="./img/user.jpg" alt="">
+          <h3>John Doe</h3>
+          <p>Conset elitr erat vero dolor ipsum et diam, eos dolor lorem ipsum, ipsum ipsum sit no ut est. Guber ea ipsum erat kasd amet est elitr ea sit.</p>
+        </div>
+        <div class="search">
+          <input type="search" name="" id="search" placeholder="Keyword">
+          <button type="submit"><i class="fa fa-search"></i></button>
+        </div>
+        <section class="categories">
+          <h2>Categories</h2>
+          <div class="category-box">
+            <div class="category-line">
+              <a href="#">Web Design</a>
+              <p>150</p>
+            </div>
+            <div class="category-line">
+              <a href="#">Web Development</a>
+              <p>131</p>
+            </div>
+            <div class="category-line">
+              <a href="#">Online Marketing</a>
+              <p>78</p>
+            </div>
+            <div class="category-line">
+              <a href="#">Keyword Research</a>
+              <p>56</p>
+            </div>
+            <div class="category-line">
+              <a href="#">Email Marketing</a>
+              <p>98</p>
+            </div>
+          </div>
+          <img src="./img/blog-1.jpg" alt="">
+        </section>
+        <section class="recent">
+          <h2>Recent Post</h2>
+          <div class="recent-box">
+            <img src="./img/post-1.jpg" alt="">
+            <div class="recent-details">
+              <h5>Diam amet eos at no eos</h5>
+              <div class="recent-stat">
+                <div>
+                    <i class="fa-solid fa-user"></i>
+                    <span>Admin</span>
+                </div>
+                <div>
+                    <i class="fa-solid fa-folder"></i>
+                    <span>Web Design</span>
+                </div>
+                <div>
+                    <i class="fa-solid fa-comments"></i>
+                    <span>15</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="recent-box">
+            <img src="./img/post-2.jpg" alt="">
+            <div class="recent-details">
+              <h5>Diam amet eos at no eos</h5>
+              <div class="recent-stat">
+                <div>
+                    <i class="fa-solid fa-user"></i>
+                    <span>Admin</span>
+                </div>
+                <div>
+                    <i class="fa-solid fa-folder"></i>
+                    <span>Web Design</span>
+                </div>
+                <div>
+                    <i class="fa-solid fa-comments"></i>
+                    <span>15</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="recent-box">
+            <img src="./img/post-3.jpg" alt="">
+            <div class="recent-details">
+              <h5>Diam amet eos at no eos</h5>
+              <div class="recent-stat">
+                <div>
+                    <i class="fa-solid fa-user"></i>
+                    <span>Admin</span>
+                </div>
+                <div>
+                    <i class="fa-solid fa-folder"></i>
+                    <span>Web Design</span>
+                </div>
+                <div>
+                    <i class="fa-solid fa-comments"></i>
+                    <span>15</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <img src="./img/blog-2.jpg" alt="">
+        </section>
+        <section class="tag">
+          <h2>Tag Cloud</h2>
+          <button><a href="#">Design</a> </button>
+          <button><a href="#">Development</a> </button>
+          <button><a href="#"> Marketing</a></button>
+          <button><a href="#">SEO</a> </button>
+          <button><a href="#">Writing</a> </button>
+          <button><a href="#">Consulting</a> </button>
+          <img src="./img/blog-3.jpg" alt="">
+        </section>
+        <section class="text2">
+          <h2>Plain Text</h2>
+          <p>aliquyam sed lorem stet diam dolor sed ut sit. Ut sanctus erat ea est aliquyam dolor et. Et no consetetur eos labore ea erat voluptua et. Et aliquyam dolore sed erat. Magna sanctus sed eos tempor rebum dolor, tempor takimata clita sit et elitr ut eirmod.</p>
+        </section>
+      </aside>
+    </div>
+  <footer>
+    <div class="footer-grid ">
+        <div class="grid-1">
+        <img src="./img/teddy-bear.png" alt="">
+        <a>KidKinder</a>
+        <p>Labore dolor amet ipsum ea, erat sit ipsum duo eos. Volup amet ea dolor et magna dolor, elitr rebum duo est sed diam elitr. Stet elitr stet diam duo eos rebum ipsum diam ipsum elitr.</p>
+        <div class="grid1-buttons">
+            <button><i class="fa-brands fa-twitter"></i></button>
+            <button><i class="fa-brands fa-facebook-f"></i></button>
+            <button><i class="fa-brands fa-linkedin"></i></button>
+            <button><i class="fa-brands fa-instagram"></i></button</button>
+        </div>
+        </div>
+        <div class="grid-2">
+        <h2>Get In Touch</h2>
+        <div class="grid2-detail">
+            <i class="fa-solid fa-location-dot"></i>
+            <div class="grid2-text">
+            <h5>Address</h5>
+            <p>123 Street, New York, USA</p></div>
+        </div>
+        <div class="grid2-detail">
+            <i class="fa-solid fa-envelope"></i> 
+            <div class="grid2-text"><h5>Email</h5>
+            <p>mail@domain.com</p></div>
+        </div>
+        <div class="grid2-detail">
+            <i class="fa-solid fa-phone"></i>
+            <div class="grid2-text"><h5>Phone</h5>
+            <p>+012 345 67890</p></div>
+        </div>
+        </div>
+        <div class ="link">
+        <h2>Quick Links</h2>
+        <a href=""><i class="fa-sharp fa-solid fa-angle-right"></i>Home</a>
+        <a href="./sch-about.html"><i class="fa-sharp fa-solid fa-angle-right"></i>About Us</a>
+        <a href="./sch-class.html"><i class="fa-sharp fa-solid fa-angle-right"></i>Our Classes</a>
+        <a href="./sch-teacher.html"><i class="fa-sharp fa-solid fa-angle-right"></i>Our Teachers</a>
+        <a href=""><i class="fa-sharp fa-solid fa-angle-right"></i>Our Blog</a>
+        <a href="./sch-contact.html"><i class="fa-sharp fa-solid fa-angle-right"></i>Contact Us</a>
+        </div>
+        <div class="grid-4">
+        <h2>Newsletter</h2>
+        <form action="Newsletter"></form>
+        <input type="text" name="Name" id=""placeholder="Your Name">
+        <input type="email" name="Email" id=""placeholder="Your Email" >
+        <button type="submit">Submit Now</button>
+        </div>
+    </div>
+    <hr>
+    <div style="text-align: center;" class="footer-line">
+        <p>&#169 <a href="#">Your Site Name</a>. All Rights Reserved. Designed by <a href="#">HTML Codex</a></p>
+    </div>
+  </footer>
+  <div class="back"><button><a href="#top"><i class="fa-solid fa-angles-up"></i></a></button></div>
+</body>
+</html>
